@@ -1,0 +1,5 @@
+services:
+  freelancerapp:
+    build: .
+    ports:
+      - "5217:5217"
