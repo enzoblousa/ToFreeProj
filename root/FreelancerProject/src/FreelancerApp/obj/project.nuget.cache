@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bvKduP+d3GI=",
+  "dgSpecHash": "Gkp0iQTzjEU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\enzob\\OneDrive\\Desktop\\Projetos acadêmicos\\root\\FreelancerProject\\src\\FreelancerApp\\FreelancerApp.csproj",
+  "projectFilePath": "C:\\Users\\enzob\\OneDrive\\Desktop\\Projetos acadêmicos\\ToFreeProj\\root\\FreelancerProject\\src\\FreelancerApp\\FreelancerApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\enzob\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\enzob\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

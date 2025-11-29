@@ -434,11 +434,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\enzob\\OneDrive\\Desktop\\Projetos acadêmicos\\root\\FreelancerProject\\src\\FreelancerApp\\FreelancerApp.csproj",
+      "projectUniqueName": "C:\\Users\\enzob\\OneDrive\\Desktop\\Projetos acadêmicos\\ToFreeProj\\root\\FreelancerProject\\src\\FreelancerApp\\FreelancerApp.csproj",
       "projectName": "FreelancerApp",
-      "projectPath": "C:\\Users\\enzob\\OneDrive\\Desktop\\Projetos acadêmicos\\root\\FreelancerProject\\src\\FreelancerApp\\FreelancerApp.csproj",
+      "projectPath": "C:\\Users\\enzob\\OneDrive\\Desktop\\Projetos acadêmicos\\ToFreeProj\\root\\FreelancerProject\\src\\FreelancerApp\\FreelancerApp.csproj",
       "packagesPath": "C:\\Users\\enzob\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\enzob\\OneDrive\\Desktop\\Projetos acadêmicos\\root\\FreelancerProject\\src\\FreelancerApp\\obj\\",
+      "outputPath": "C:\\Users\\enzob\\OneDrive\\Desktop\\Projetos acadêmicos\\ToFreeProj\\root\\FreelancerProject\\src\\FreelancerApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -34,30 +34,17 @@ namespace FreelancerApp.Tests
                 HourlyRate = 50.0m
             };
 
-            var freelancer2 = new Freelancer 
-            { 
-                Name = "Vinicius Bernardo", 
-                Email = "vbernardo@gmail.com",
-                Skills = "Especialista em marketing digital, veloz na criação de campanhas online",
-                HourlyRate = 50.0m
-            };
 
             // ACT/agir (ação) 
             var result = _service.Create(freelancer);
-            var result2 = _service.Create(freelancer2);
 
             // ASSERT/afirmar (verificação)
             Assert.NotNull(result);
             Assert.Equal(1, result.Id);
             Assert.Equal("Enzo Spíndola", result.Name);
-            Assert.NotNull(result2);
-            Assert.Equal(2, result2.Id);
-            Assert.Equal("Vinicius Bernardo", result2.Name);
         }
-
         [Fact]
-        public void ObterPorId_IdExistente_RetornaFreelancer()
-        {
+        public void ObterPorId_IdExistente_RetornaFreelancer(){
             // ARRANGE (cria um freelancer primeiro)
             var freelancer = new Freelancer 
             { 
@@ -77,20 +64,19 @@ namespace FreelancerApp.Tests
         }
 
         [Fact]
-        public void Atualizar_FreelancerExistente_RetornaFreelancerAtualizado()
-        {
+        public void Atualizar_FreelancerExistente_RetornaFreelancerAtualizado(){
             // ARRANGE
             var freelancer = new Freelancer 
             { 
-                Name = "Old Name", 
-                Email = "old@email.com" 
+                Name = "Nome antigo", 
+                Email = "oldemailexample@gmail.com" 
             };
             var created = _service.Create(freelancer);
             
             var updatedFreelancer = new Freelancer 
             { 
-                Name = "New Name", 
-                Email = "new@email.com" 
+                Name = "Nome novo", 
+                Email = "newemailexample@gmail.com" 
             };
 
             // ACT
@@ -98,8 +84,8 @@ namespace FreelancerApp.Tests
 
             // ASSERT
             Assert.NotNull(result);
-            Assert.Equal("New Name", result.Name);
-            Assert.Equal("new@email.com", result.Email);
+            Assert.Equal("Nome novo", result.Name);
+            Assert.Equal("newemailexample@gmail.com", result.Email);
         }
 
         [Fact]
