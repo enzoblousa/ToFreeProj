@@ -1,4 +1,6 @@
-# ToFree Projeto
+# ToFree Project
+
+## Desenvolvido por: Enzo Spíndola, Vinícius Bernardo
 
 ![GitHub](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet)
 ![GitHub](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)
