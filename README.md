@@ -84,6 +84,7 @@ dotnet restore
 dotnet test
 ```
 
+```bash
 // Criando um freelancer
 var freelancer = new Freelancer 
 { 
@@ -95,3 +96,4 @@ var freelancer = new Freelancer
 
 var service = new FreelancerService();
 var result = service.Create(freelancer);
+```
